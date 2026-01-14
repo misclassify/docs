@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "MelonSMP Player Wiki",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -85,13 +85,38 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.svg",
+    "href": "/"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Rules",
+        "href": "/important/rules"
+      },
+      {
+        "label": "Features",
+        "href": "/features"
+      },
+      {
+        "label": "Commands",
+        "href": "/commands"
+      },
+      {
+        "label": "Map",
+        "href": "/map"
+      },
+      {
+        "label": "Discord",
+        "href": "https://discord.gg/melonsmp"
+      },
+      {
+        "label": "Store",
+        "href": "https://store.melonsmp.fun"
       }
     ],
     "primary": {
@@ -114,9 +139,29 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "discord": "https://discord.gg/melonsmp",
+      "website": "https://melonsmp.fun"
+    }
+  },
+  "description": "Everything you need to know to play, survive, and thrive on MelonSMP — rules, features, guides, and server systems.",
+  "background": {
+    "decoration": "grid"
+  },
+  "appearance": {
+    "default": "system"
+  },
+  "thumbnails": {
+    "appearance": "dark",
+    "fonts": {
+      "family": "Inter"
+    }
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "api": {
+    "playground": {
+      "proxy": false
     }
   }
 }
