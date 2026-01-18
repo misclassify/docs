@@ -40,38 +40,12 @@
       { "label": "Store", "href": "https://store.melonsmp.fun" }
     ]
   },
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Wiki",
-        "groups": [
-          {
-            "group": "Getting Started",
-            "pages": [
-              "index",
-              "getting-started",
-              "faq"
-            ]
-          },
-          {
-            "group": "Server Info",
-            "pages": [
-              "important/rules",
-              "features",
-              "commands",
-              "map"
-            ]
-          },
-          {
-            "group": "Gameplay",
-            "pages": [
-              "economy",
-              "nations",
-              "shops",
-              "events"
-            ]
-          }
-        ]
+  "navigation": [
+    {
+      "group": "IMPORTANT",
+      "pages": ["home/important/rules"]
+    }
+  ]
       }
     ]
   },
