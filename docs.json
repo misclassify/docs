@@ -45,8 +45,7 @@
       "group": "IMPORTANT",
       "pages": ["home/important/rules"]
     }
-  ]
-      }
+  ],
   "contextual": {
     "options": ["copy"]
   },
@@ -80,3 +79,4 @@
       "proxy": false
     }
   }
+}
