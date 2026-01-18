@@ -17,8 +17,18 @@
   },
   "footer": {
     "links": [
-      { "name": "Discord", "url": "https://discord.gg/yourserver" },
-      { "name": "Store", "url": "https://store.melonsmp.com" }
+      {
+        "title": "Community",
+        "items": [
+          { "label": "Discord", "href": "https://discord.gg/yourserver" }
+        ]
+      },
+      {
+        "title": "Resources",
+        "items": [
+          { "label": "Store", "href": "https://store.melonsmp.com" }
+        ]
+      }
     ]
   },
   "navigation": {
