@@ -47,8 +47,8 @@
     }
   ]
       }
-    ]
-  },
+    }
+  ],
   "contextual": {
     "options": ["copy"]
   },
