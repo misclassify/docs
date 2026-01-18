@@ -3,10 +3,10 @@
   "name": "MelonSMP Wiki",
   "theme": "mint",
   "logo": {
-    "light": "https://403898593-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FaOcpRpzZEmMf9po6Mbqm%2Ficon%2FXhBrvteeeCluWTPQyOsS%2Fmelon_smp-newlogo.png",
-    "dark": "https://403898593-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FaOcpRpzZEmMf9po6Mbqm%2Ficon%2FXhBrvteeeCluWTPQyOsS%2Fmelon_smp-newlogo.png"
+    "light": "https://storage.googleapis.com/gitbook-x-prod.appspot.com/spaces/aOcpRpzZEmMf9po6Mbqm/icon/XhBrvteeeCluWTPQyOsS/melon_smp-newlogo.png",
+    "dark": "https://storage.googleapis.com/gitbook-x-prod.appspot.com/spaces/aOcpRpzZEmMf9po6Mbqm/icon/XhBrvteeeCluWTPQyOsS/melon_smp-newlogo.png"
   },
-  "favicon": "https://403898593-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FaOcpRpzZEmMf9po6Mbqm%2Ficon%2FXhBrvteeeCluWTPQyOsS%2Fmelon_smp-newlogo.png",
+  "favicon": "https://storage.googleapis.com/gitbook-x-prod.appspot.com/spaces/aOcpRpzZEmMf9po6Mbqm/icon/XhBrvteeeCluWTPQyOsS/melon_smp-newlogo.png",
   "colors": {
     "primary": "#4CAF50",
     "light": "#81C784",
@@ -20,13 +20,13 @@
       {
         "title": "Community",
         "items": [
-          { "label": "Discord", "href": "https://discord.gg/yourserver" }
+          { "label": "Discord", "href": "https://discord.gg/melonsmp" }
         ]
       },
       {
         "title": "Resources",
         "items": [
-          { "label": "Store", "href": "https://store.melonsmp.com" }
+          { "label": "Store", "href": "https://store.melonsmp.fun" }
         ]
       }
     ]
