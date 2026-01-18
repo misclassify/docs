@@ -1,12 +1,26 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "name": "MelonSMP Wiki",
+  "theme": "mint",
   "logo": {
     "light": "https://403898593-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FaOcpRpzZEmMf9po6Mbqm%2Ficon%2FXhBrvteeeCluWTPQyOsS%2Fmelon_smp-newlogo.png",
     "dark": "https://403898593-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FaOcpRpzZEmMf9po6Mbqm%2Ficon%2FXhBrvteeeCluWTPQyOsS%2Fmelon_smp-newlogo.png"
   },
   "favicon": "https://403898593-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FaOcpRpzZEmMf9po6Mbqm%2Ficon%2FXhBrvteeeCluWTPQyOsS%2Fmelon_smp-newlogo.png",
-  "colors": { "primary": "#4CAF50" },
+  "colors": {
+    "primary": "#4CAF50",
+    "light": "#81C784",
+    "dark": "#2E7D32"
+  },
+  "appearance": {
+    "default": "dark"
+  },
+  "footer": {
+    "links": [
+      { "name": "Discord", "url": "https://discord.gg/yourserver" },
+      { "name": "Store", "url": "https://store.melonsmp.com" }
+    ]
+  },
   "navigation": {
     "groups": [
       { "group": "Welcome", "pages": ["index"] },
