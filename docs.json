@@ -1,82 +1,19 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "MelonSMP Player Wiki",
-  "description": "Everything you need to know to play, survive, and thrive on MelonSMP — rules, features, guides, and server systems.",
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
+  "name": "MelonSMP Wiki",
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg",
-    "href": "/"
+    "light": "https://403898593-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FaOcpRpzZEmMf9po6Mbqm%2Ficon%2FXhBrvteeeCluWTPQyOsS%2Fmelon_smp-newlogo.png",
+    "dark": "https://403898593-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FaOcpRpzZEmMf9po6Mbqm%2Ficon%2FXhBrvteeeCluWTPQyOsS%2Fmelon_smp-newlogo.png"
   },
-  "appearance": {
-    "default": "system"
-  },
-  "background": {
-    "decoration": "grid"
-  },
-  "thumbnails": {
-    "appearance": "dark",
-    "fonts": {
-      "family": "Inter"
-    }
-  },
-  "styling": {
-    "eyebrows": "breadcrumbs"
-  },
-  "navbar": {
-    "links": [
-      { "label": "Home", "href": "/" },
-      { "label": "Rules", "href": "/important/rules" },
-      { "label": "Features", "href": "/features" },
-      { "label": "Commands", "href": "/commands" },
-      { "label": "Map", "href": "/map" },
-      { "label": "Discord", "href": "https://discord.gg/melonsmp" },
-      { "label": "Store", "href": "https://store.melonsmp.fun" }
+  "favicon": "https://403898593-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FaOcpRpzZEmMf9po6Mbqm%2Ficon%2FXhBrvteeeCluWTPQyOsS%2Fmelon_smp-newlogo.png",
+  "colors": { "primary": "#4CAF50" },
+  "navigation": {
+    "groups": [
+      { "group": "Welcome", "pages": ["index"] },
+      { "group": "Important", "icon": "book", "pages": ["important/rules", "important/voting", "important/appeals", "important/applications"] },
+      { "group": "How to Connect", "icon": "plug", "pages": ["how-to-connect/java", "how-to-connect/bedrock"] },
+      { "group": "Webstore", "icon": "store", "pages": ["webstore/donator-ranks", "webstore/coin-shop"] },
+      { "group": "Gameplay", "icon": "gamepad", "pages": ["gameplay/levels", "gameplay/claims", "gameplay/auction-house", "gameplay/shop", "gameplay/jobs", "gameplay/clans", "gameplay/server-warps", "gameplay/player-warps", "gameplay/gemflips"] }
     ]
-  },
-  "navigation": [
-    {
-      "group": "IMPORTANT",
-      "pages": ["home/important/rules"]
-    }
-  ],
-  "contextual": {
-    "options": ["copy"]
-  },
-  "footer": {
-    "columns": [
-      {
-        "header": "MelonSMP",
-        "links": [
-          { "label": "Home", "href": "/" },
-          { "label": "Rules", "href": "/important/rules" },
-          { "label": "Features", "href": "/features" },
-          { "label": "Commands", "href": "/commands" }
-        ]
-      },
-      {
-        "header": "Community",
-        "links": [
-          { "label": "Discord", "href": "https://discord.gg/melonsmp" },
-          { "label": "Store", "href": "https://store.melonsmp.fun" },
-          { "label": "Website", "href": "https://melonsmp.fun" }
-        ]
-      }
-    ],
-    "socials": {
-      "discord": "https://discord.gg/melonsmp",
-      "website": "https://melonsmp.fun"
-    }
-  },
-  "api": {
-    "playground": {
-      "proxy": false
-    }
   }
 }
